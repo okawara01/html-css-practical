@@ -68,6 +68,8 @@ img {
 h2 {
   font-size: 34px;
   text-align: center;
+  margin: 0;
+  padding: 60px 0 40px;
 }
 
 
@@ -77,6 +79,7 @@ li {
 }
 
 #about-flex {
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -88,6 +91,11 @@ li {
    width: 280px;
    height: 280px;
    border-radius: 50%; 
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .works-flex {
@@ -120,6 +128,10 @@ footer > p {
     font-size: 28px;
   }
 
+  .header-inner {
+    display: flex;
+  }
+
   nav li {
     margin: 0 10px;
   }
@@ -141,3 +153,4 @@ footer > p {
 
 }
  
+
